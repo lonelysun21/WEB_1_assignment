@@ -7,7 +7,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Header */
 .header {
     background-color: #d6006c;
     color: white;
@@ -15,7 +14,6 @@ body {
     text-align: center;
 }
 
-/* Navbar */
 .navbar {
     background-color: #2b2b2b;
     padding: 10px;
@@ -34,13 +32,12 @@ body {
     background-color: #ff4fa3;
 }
 
-/* Container that holds sidebar + main content */
 .container {
-    overflow: hidden; /* clearfix — заставляет контейнер учитывать высоту float-элементов внутри */
+    overflow: hidden;
     padding: 20px;
 }
 
-/* Sidebar — слева */
+
 .sidebar {
     float: left;
     width: 25%;
@@ -60,7 +57,6 @@ body {
     border-bottom: 1px solid #d6006c;
 }
 
-/* Main content — справа */
 .main-content {
     float: right;
     width: 70%;
@@ -70,9 +66,8 @@ body {
     border-radius: 8px;
 }
 
-/* Footer */
 .footer {
-    clear: both; /* чтобы footer точно оказался ниже float-элементов */
+    clear: both;
     background-color: #2b2b2b;
     color: white;
     text-align: center;
