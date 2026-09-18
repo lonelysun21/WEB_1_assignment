@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #fdf2f8;
+}
+
+.header {
+    background-color: #d6006c;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    color: #ff8cd3;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Task 1 */
+.page-content {
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+a {
+    color: #d6006c;
+}
+a:hover {
+    color: #ff4fa3;
+}
+
+.profile-card {
+    background-color: white;
+    border: 1px solid #d6006c;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+    max-width: 250px;
+}
+
+.profile-card img {
+    max-width: 120px;
+    border-radius: 50%;
+}
+
+/* Task 2 - layout */
+.container {
+    overflow: hidden;
+    padding: 20px;
+}
+
+.sidebar {
+    float: left;
+    width: 25%;
+    background-color: #ffe6f2;
+    padding: 10px;
+    border: 1px solid #d6006c;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 5px 0;
+}
+
+.main-content {
+    float: right;
+    width: 70%;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #d6006c;
+}
+
+/* Task 4 - таблица */
+#grades-title {
+    text-align: center;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto 30px auto;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: #d6006c;
+    color: white;
+    padding: 8px;
+}
+
+table td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #ffe6f2;
+}
+
+.highlight-row {
+    background-color: #ffd1e6;
+}
+
+/* Task 4 - форма */
+.feedback-form {
+    width: 350px;
+    margin: 0 40px 30px auto;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #d6006c;
+    border-radius: 8px;
+}
+
+.feedback-form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+    width: 100%;
+    padding: 6px;
+    margin-top: 3px;
+}
+
+#submit-btn {
+    margin-top: 10px;
+    background-color: #d6006c;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+#submit-btn:hover {
+    background-color: #ff4fa3;
+}
+.grades-feedback-container {
+    overflow: hidden;
+    padding: 20px;
+}
+
+.table-wrapper {
+    float: left;
+    width: 60%;
+}
+
+table {
+    width: 100%;
+    margin: 0;
+}
+
+.feedback-form {
+    float: right;
+    width: 30%;
+    margin: 0;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #d6006c;
+    border-radius: 8px;
+}
